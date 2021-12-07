@@ -6,6 +6,9 @@
     font-family: lf-bold;
     src: url('fonts/LibreFranklin-Bold.ttf') format('truetype');
 }
+html {
+    background: linear-gradient(90deg, rgba(50,68,88,1) 0%, rgba(0,0,0,1) 50%, rgba(50,68,88,1) 100%);
+}
 body {
     margin:0;
     color: white;
@@ -72,6 +75,10 @@ body {
 }
 #section-about .about-center p {
     color: #585858;
+}
+#section-myworks {
+    max-width: 1230px;
+    margin: auto;
 }
 #section-myworks .mywork-left, #section-myworks .mywork-right {
     width: 100%;
@@ -147,7 +154,7 @@ body {
     background-repeat: no-repeat;
     background-size: 200px;
     background-position: right bottom;
-
+    background-color: white;
 }
 #section-footer {
     background-color: rgb(71, 72, 73);
