@@ -189,3 +189,9 @@ body {
     -webkit-text-fill-color: transparent;
 }
 
+@media (max-width:800px) {
+    #section-myworks .mywork-left .mywork-pic, #section-myworks .mywork-right .mywork-pic {
+        height: auto;
+        width: 160px;
+    }
+}
