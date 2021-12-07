@@ -1,0 +1,1 @@
+To view the page, clone the git and after that create `vendor` folder and download the latest fontawesome font addon from [their official page.](https://fontawesome.com/v5.15/how-to-use/on-the-web/setup/hosting-font-awesome-yourself) After that rename the folder to `fontawesome`.
