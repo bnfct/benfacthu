@@ -194,4 +194,16 @@ body {
         height: auto;
         width: 160px;
     }
+    #section-myworks .mywork-left .mywork-content, #section-myworks .mywork-right .mywork-content {
+        height: auto;
+    }
+    #section-myworks .mywork-left, #section-myworks .mywork-right {
+        height: auto;
+    }
+}
+@media (max-width:300px) {
+    #section-myworks .mywork-left .mywork-pic, #section-myworks .mywork-right .mywork-pic {
+        height: auto;
+        width: 100px;
+    }
 }
