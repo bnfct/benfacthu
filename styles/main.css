@@ -26,6 +26,7 @@ body {
 }
 #section-splash .header-center {
     margin: auto;
+    animation: splash-animation 2s ease;
 }
 #section-splash .header-center h1 {
     margin: 0;
@@ -52,7 +53,9 @@ body {
 #section-splash .fas.fa-angle-double-down {
     font-size: 50px;
     margin-bottom: 20px;
+    opacity: 0;
     text-shadow: 1px 6px 11px black;
+    animation: splash-animation 2s ease 2s forwards;
 }  
 #section-about {
     background-image: url(../img/abstractbg.png);
@@ -169,7 +172,10 @@ body {
 #section-footer .social-links-container a {     
     margin: auto;
     display: block;
-
+    transition: all 0.2s ease;
+}
+#section-footer .social-links-container a:hover {
+    transform: scale(1.1,1.1);
 }
 #section-footer p {     
     text-align: center;
@@ -188,8 +194,17 @@ body {
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
 }
-
-@media (max-width:800px) {
+@keyframes splash-animation {
+    0% {
+        transform:translateY(-200%);
+        opacity: 0;
+    }
+    100% {
+        transform:translateY(0);
+        opacity: 1;
+    }
+}
+    @media (max-width:800px) {
     #section-myworks .mywork-left .mywork-pic, #section-myworks .mywork-right .mywork-pic {
         height: auto;
         width: 160px;
