@@ -97,6 +97,9 @@ body {
     flex:none;
     background-size: cover;
 }
+#section-myworks .mywork-left .mywork-content a {
+    color: white;
+}
 #section-myworks .mywork-left .mywork-content, #section-myworks .mywork-right .mywork-content  {
     width: 100%;
     height: 400px;
